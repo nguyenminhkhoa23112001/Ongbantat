@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.otp-box{
+    background: #fff;
+    width: 100%;
+    max-width: 400px;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px 10px rgba(0, 0, 0, 0.05);
+    display: grid;
+    gap: 1.5em;
+    text-align: center;
+}
+
+.otp-box .img{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.otp-box .content-box h2{
+    font-size: 20px;
+    color: #111;
+    margin-bottom: 8px;
+}
+
+.otp-box .content-box p {
+    color: #555;
+    font-size: 14px;
+}
+
+.otp-box .inputs{
+    display: block;
+    justify-content: space-between;
+    max-width: 320px;
+    margin: 0 auto;
+    gap: 0.5em;
+}
+
+.otp-box .inputs input{
+    width: 150px;
+    height: 40px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    color: #111;
+    caret-color: transparent;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.otp-box .verify-button button{
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    font-family: cursive;
+    border: none;
+    background-color: grey;
+    border-radius: 8px;
+    color: white;
+}
+

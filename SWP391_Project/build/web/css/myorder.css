@@ -1,0 +1,95 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 7, 2024, 2:31:49 AM
+    Author     : tudo7
+*/
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.close-button .fas {
+    color: #808080; /* Màu xám */
+    font-size: 20px; /* Kích thước icon */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.management {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: background-color 0.3s ease; /* Thêm hiệu ứng chuyển đổi màu nền */
+}
+
+.title-bar {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-bar:hover {
+    background-color: #e6e6e6; /* Màu nền khi di chuột vào */
+}
+
+.options {
+    display: none;
+}
+
+.options ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.options li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.options li:last-child {
+    border-bottom: none;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+/*    background-color: white;*/
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+}
+
+
+
+
